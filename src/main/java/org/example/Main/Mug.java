@@ -1,5 +1,8 @@
 package org.example.Main;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Mug {
     private String name;
 
@@ -9,5 +12,10 @@ public class Mug {
 
     public String getName(){
         return this.name;
+    }
+
+    @Override
+    public String toString() {
+        return this.getName();
     }
 }
