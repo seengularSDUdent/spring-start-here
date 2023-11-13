@@ -8,19 +8,23 @@ import org.springframework.context.annotation.Configuration;
 public class SpringConfiguration {
 
     @Bean
-    Mug mug(){
+    Mug mug0(){
         Mug beanMug = new Mug();
         beanMug.setName("Arman's Mug");
         return beanMug;
     }
 
     @Bean
-    String string(){
-        return "Just a String";
+    Mug mug1(){
+        Mug beanMug = new Mug();
+        beanMug.setName("Daulet's mug");
+        return beanMug;
     }
 
     @Bean
-    Integer nine(){
-        return 9;
+    Mug mug2(){
+        Mug beanMug = new Mug();
+        beanMug.setName("Gulnur's mug");
+        return beanMug;
     }
 }
