@@ -13,4 +13,14 @@ public class SpringConfiguration {
         beanMug.setName("Arman's Mug");
         return beanMug;
     }
+
+    @Bean
+    String string(){
+        return "Just a String";
+    }
+
+    @Bean
+    Integer nine(){
+        return 9;
+    }
 }
