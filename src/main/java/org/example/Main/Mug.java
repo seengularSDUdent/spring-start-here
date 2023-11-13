@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Main;
 
 public class Mug {
     private String name;
